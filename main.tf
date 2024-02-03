@@ -15,7 +15,7 @@ resource "aws_instance" "web" {
 }
 
 resource "aws_security_group" "devops-project-jenkins" {
-  name        = "devops-project-veera"
+  name        = "devops-project-jenkins"
   description = "Allow TLS inbound traffic"
 
   ingress = [
