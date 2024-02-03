@@ -6,7 +6,7 @@ resource "aws_instance" "web" {
   user_data              = templatefile("./install.sh", {})
 
   tags = {
-    Name = "project-MainEc2"
+    Name = "project-Main"
   }
 
   root_block_device {
